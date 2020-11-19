@@ -98,7 +98,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri uri = Uri.parse(url);
     }
 
-    public void videoPlayer(String url){
+    public void videoPlayer(String url) {
         if (player != null) {
             releasePlayer();
         }
@@ -136,7 +136,7 @@ public class PlayerActivity extends AppCompatActivity {
             return headerMap;
         }
 
-        headerMap.put("PlayerAuthen", playerAuthen);
+        headerMap.put("PlayerService", playerAuthen);
         return headerMap;
     }
 
